@@ -1,2 +1,2 @@
 # All-Arrows-Infinity-Fix
-A Minecraft mod making the infinity enchantment compatible with every arrow.
+A simple Minecraft mod which allows all arrows to work with the Infinity Enchantment.
