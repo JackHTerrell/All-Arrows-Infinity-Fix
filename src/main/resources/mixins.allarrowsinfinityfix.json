@@ -1,0 +1,14 @@
+{
+	"package": "com.jackbusters.allarrowsinfinityfix.mixins",
+	"required": true,
+	"refmap": "mixins.allarrowsinfinityfix.refmap.json",
+	"target": "@env(DEFAULT)",
+	"minVersion": "0.8.5",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"arrowsFixAllArrows",
+		"arrowsFixForge"
+	],
+	"server": [],
+	"client": []
+}
