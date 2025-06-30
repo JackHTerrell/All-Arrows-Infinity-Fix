@@ -11,10 +11,15 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 /**
-    <p>This class will modify some variables to allow all arrows, including modded ones, to work with the infinity enchantment.</p>
+    <h1>Vanilla Infinity Check</h1>
+    <p>The {@link EnchantmentHelper processAmmoUse(net.minecraft.server.level.ServerLevel, net.minecraft.world.item.ItemStack, net.minecraft.world.item.ItemStack, int)}
+ function returns the amount of ammo (arrows) a projectile weapon should use when fired. </p>
+ <p>
+ It runs the checks for the Infinity enchantment on ammo, and returns 0 if the ammo type should not be used.
+ </p>
+
+ <p>This mixin injects to the head of that function, adds a condition simply checking if the weapon has infinity, and returns 0 if it does.</p>
 */
-
-
 @Mixin(EnchantmentHelper.class)
 public class ArrowsFixAllArrows {
     @Inject(method = "processAmmoUse", at = @At("HEAD"), cancellable = true)
