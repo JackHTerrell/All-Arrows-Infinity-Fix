@@ -15,7 +15,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 /**
  * <h1>Forge Infinity Check</h1>
- * <p>This class injects a condition into the HEAD of {@link ArrowItem isInfinite(ItemStack, ItemStack, LivingEntity)}
+ * <p>This class injects a condition into the HEAD of {@link ArrowItem#isInfinite(ItemStack, ItemStack, LivingEntity)}
  * checking if an Item Stack is enchanted with Infinity.</p>
  * <p>If it is, the function is made to return true.</p>
  */
