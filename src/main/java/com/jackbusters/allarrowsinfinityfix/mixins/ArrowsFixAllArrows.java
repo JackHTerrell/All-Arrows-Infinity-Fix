@@ -12,7 +12,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 /**
     <h1>Vanilla Infinity Check</h1>
-    <p>The {@link EnchantmentHelper processAmmoUse(net.minecraft.server.level.ServerLevel, net.minecraft.world.item.ItemStack, net.minecraft.world.item.ItemStack, int)}
+    <p>The {@link EnchantmentHelper#processAmmoUse(ServerLevel, ItemStack, ItemStack, int)}
  function returns the amount of ammo (arrows) a projectile weapon should use when fired. </p>
  <p>
  It runs the checks for the Infinity enchantment on ammo, and returns 0 if the ammo type should not be used.
