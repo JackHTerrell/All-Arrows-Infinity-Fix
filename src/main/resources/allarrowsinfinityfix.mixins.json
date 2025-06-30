@@ -2,14 +2,14 @@
   "required": true,
   "minVersion": "0.8",
   "package": "com.jackbusters.allarrowsinfinityfix.mixins",
-  "compatibilityLevel": "JAVA_17",
-  "refmap": "allarrowsinfinityfix.mixins.refmap.json",
+  "compatibilityLevel": "JAVA_21",
+  "plugin": "com.jackbusters.allarrowsinfinityfix.AAIFMixinPlugin",
   "mixins": [
-    "ArrowsFixAllArrows",
-    "ArrowsFixForge"
+    "ArrowsFix"
+  ],
+  "client": [
   ],
   "injectors": {
     "defaultRequire": 1
   }
-  }
-  
+}
