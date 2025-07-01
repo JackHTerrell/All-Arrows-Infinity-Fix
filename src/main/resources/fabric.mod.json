@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "allarrowsinfinityfix",
-  "version": "1.8.1",
+  "version": "1.8.2",
 
   "name": "All Arrows Infinity Fix",
   "description": "This mod allows the Infinity enchantment to work with all arrows",
@@ -10,7 +10,8 @@
   ],
   "contact": {
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/all-arrows-infinity-fix",
-    "issues": "https://www.curseforge.com/minecraft/mc-mods/xtra-arrows/issues"
+    "issues": "https://www.curseforge.com/minecraft/mc-mods/xtra-arrows/issues",
+    "sources": "https://github.com/Jackbusters/All-Arrows-Infinity-Fix"
   },
 
   "license": "All Rights Reserved",
@@ -27,7 +28,7 @@
 
   "depends": {
     "fabricloader": ">=0.11.3",
-    "minecraft": ">=1.21.3 <=1.21.6",
+    "minecraft": ">=1.21.3 <=1.21.7",
     "java": ">=21"
   },
   "suggests": {
